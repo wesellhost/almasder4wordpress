@@ -1,3 +1,6 @@
 
 #### other ####
 /*.zip
+/untracked/*
+.privroadmap
+.blah
