@@ -65,13 +65,13 @@ function almasder4wordpress() {
             $almasder4wordpress_masderlink = esc_attr($values['_almasder4wordpress_link'][0]);
            
             if ($almasder4wordpress_linetype == "text"){
-                $masder_line = '<p style="color:'.$almasder4wordpress_linecolor.'">'.$almasder4wordpress_lineprefix.$almasder4wordpress_masdertext.'</p>';
+                $masder_line = ' <p style="color:'.$almasder4wordpress_linecolor.'">'.$almasder4wordpress_lineprefix.$almasder4wordpress_masdertext.'</p>';
             }
             if ($almasder4wordpress_linetype == "link"){
-                $masder_line = '<p style="color:'.$almasder4wordpress_linecolor.'"><a target=_blank rel=nofollow style="color:'.$almasder4wordpress_linecolor.'" href='.$almasder4wordpress_masderlink.'>'.$almasder4wordpress_lineprefix.$almasder4wordpress_masderlink.'</a></p>';
+                $masder_line = ' <p style="color:'.$almasder4wordpress_linecolor.'"><a target=_blank rel=nofollow style="color:'.$almasder4wordpress_linecolor.'" href='.$almasder4wordpress_masderlink.'>'.$almasder4wordpress_lineprefix.$almasder4wordpress_masderlink.'</a></p>';
             };
             if ($almasder4wordpress_linetype == "href"){
-                $masder_line = '<p style="color:'.$almasder4wordpress_linecolor.'"><a target=_blank rel=nofollow style="color:'.$almasder4wordpress_linecolor.'" href='.$almasder4wordpress_masderlink.'>'.$almasder4wordpress_lineprefix.$almasder4wordpress_masdertext.'</a></p>';
+                $masder_line = ' <p style="color:'.$almasder4wordpress_linecolor.'"><a target=_blank rel=nofollow style="color:'.$almasder4wordpress_linecolor.'" href='.$almasder4wordpress_masderlink.'>'.$almasder4wordpress_lineprefix.$almasder4wordpress_masdertext.'</a></p>';
             };
             
 
