@@ -345,7 +345,7 @@ class almasder4wordpress {
 
     public function almasder4wordpress_addsourcemetabox() {
         //@ref https://developer.wordpress.org/reference/functions/add_meta_box/
-        $callback_func_args = array('foo' => "aka", 'bar' => $var2);
+        $callback_func_args = array();
         add_meta_box('almasder4wordpress-source-meta-box', __("Post/News/Article Origin", 'almasder4wordpress'), array($this, 'almasder4wordpress_origin_inner_custom_box'), 'post', 'normal', 'high', $callback_func_args);
     }
 
